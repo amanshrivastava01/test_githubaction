@@ -1,9 +1,8 @@
 // src/hello.cpp
 
 #include "hello.h"
+#include <iostream>
 
 void sayHello() {
-    // Introduce deliberate syntax error here
-    int x  // Missing semicolon
-    std::cout << "Hello, world!" << std::endl;
+    std::cout << "Hello from the sayHello function!" << std::endl;
 }
